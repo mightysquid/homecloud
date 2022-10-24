@@ -2,7 +2,8 @@
 a way to create a cloud at home
 
 # Quickstart
-... to fill
+1. install : npm i
+2. launch dev : npm run dev (wait for angular compilation => can take a while)
 
 # Steps
 1. get a computer for your cloud
@@ -65,3 +66,4 @@ ssh -R 8888:localhost:1337 vps-alias
 13. create a daemon that will check the constant ssh connection
 14. create a report for downtimes, uptimes and create the component
 15. change nginx 502 page for something else (timeout, 404, website not found etc...?)
+16. an already built release

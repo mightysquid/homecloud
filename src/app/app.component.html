@@ -1,0 +1,29 @@
+<h1>TODOS</h1>
+<ul>
+    <li>find config files</li>
+    <li>list all aliases in config file</li>
+    <li>add vps</li>
+    <li>connect to vps</li>
+    <li>setup rsa key automatically</li>
+    <li>should try to connect to each vps and show if there is a failure while connecting in vps list</li>
+    <li>setup nginx automatically</li>
+    <li>choose which port to share on which vps (should manage problems when a port is already set up)</li>
+    <li>manage domains also</li>
+</ul>
+
+
+<div style="display: grid">
+    <div style="display: grid; grid-template-columns: 200px 400px; justify-items: left;width: 800px;font-size: 20px;">
+        <div>Host</div>
+        <div>IP</div>
+    </div>
+    <div *ngFor="let item of sshConfig" style="display: grid; grid-template-columns: 200px 400px; justify-items: left;width: 800px;">
+            <div>
+                {{item.host}}
+            </div>
+            <div>
+                {{item.hostname}}
+            </div>
+    </div>
+</div>
+<button (click)="onClickAddVps()">add a vps</button>
