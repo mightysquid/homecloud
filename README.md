@@ -3,6 +3,8 @@ a way to create a cloud at home
 
 # Quickstart
 ... to fill
+# Links
+1. get listening ports on windows : https://stackoverflow.com/questions/48198/how-do-i-find-out-which-process-is-listening-on-a-tcp-or-udp-port-on-windows
 
 # Steps
 1. get a computer for your cloud
