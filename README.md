@@ -8,6 +8,7 @@ a way to create a cloud at home
 # Steps
 1. get a computer for your cloud
 2. get a very cheap vps (between 1€ to 3€ / month)
+   1. oracle can be free : https://www.youtube.com/watch?v=NKc3k7xceT8
 3. if you have a password on your vps you will need to create a rsa key first, if you already have the rsa key you can go to step 4 else set up a rsa key with this :  https://www.cyberciti.biz/faq/how-to-set-up-ssh-keys-on-linux-unix/ /!\ DO NOT DEACTIVATE PASSWORD IF ANOTHER WAY TO CONNECT ISNT SET AND WORKING
 4. set up the vps for connection through ssh on your local cloud
 * open the ssh config file located in C:\Users\USERNAME\.ssh>config (windows, it will be hidden, so open it from console or create if it doesnt exist)
